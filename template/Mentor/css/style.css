@@ -227,7 +227,7 @@ Banner
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-top: 10px;
-  font-size: 20px
+  font-size: 30px
 }
 .quote .btn:hover, .quote .btn:focus{
     background-color: #fff;
@@ -506,12 +506,11 @@ Contact Us
     border-radius: 0;
 }
 .form-control{
-
-    font-size: 20px;
+    font-size: 30px;
     background-color: white;
     border-radius: 4px;
     height: auto;
-    width: auto;
+    width: 400px;
 }
 .textarea {
     height: 228px;

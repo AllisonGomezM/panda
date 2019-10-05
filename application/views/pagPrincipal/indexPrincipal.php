@@ -6,21 +6,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Panda<span>   Cotizador</span></a>
+        <a class="navbar-brand" href="<?= base_url()?>index.php/welcome/index">Panda<span>   Cotizador</span></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#feature">Vehicular</a></li>
-          <li><a href="#organisations">Hogar</a></li>
-          <li><a href="#courses">Vida</a></li>
-          <li><a href="#pricing">Viajes</a></li>
-          <li><a href="#">Mascotas</a></li>
-          <li><a href="#">Bicicletas</a></li>
-          <li><a href="#">Corporativo</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/vehicular">Vehicular</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/hogar">Hogar</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/vida">Vida</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/viaje">Viajes</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/mascotas">Mascotas</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/bicicleta">Bicicletas</a></li>
+          <li><a href="<?= base_url()?>index.php/welcome/corporativo">Corporativo</a></li>
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
   <!--/ Navigation bar-->
 
   <!--Banner-->
@@ -33,7 +33,8 @@
           <div class="text-border">
               <h2 class="text-dec">Quiero cotizar un seguro de</h2>
             </div>
-            <div class="col-md-6 col-md-offset-5">
+            <div class="col-md-offset-1"></div>
+            <div class="col-md-offset-4">
                 <div class=" text-center form-group">
                 <br>
                     <label for="sel1"></label>
@@ -52,7 +53,7 @@
           </div>
         </div>
         <div class="intro-para text-center quote">
-              <a href="#" class="btn get-quote">Cotizar</a>
+              <a href="#" class="btn get-quote">C O T I Z A R</a>
             </div>
       </div>
     </div>
@@ -69,15 +70,16 @@
         </div>
     </div>
     <div class="container">
-    <div class="feature-info">
-        <div>
-        <br>
-        <br>
-        <h4 class="sm-txt text-center">Encuentra el mejor seguro para ti</h4>
-        <br><br>
-        </div>
+        <div class="feature-info">
+            <div>
+                <br>
+                <br>
+                <h4 class="sm-txt text-center">Encuentra el mejor seguro para ti</h4>
+                <br><br>
+            </div>
 
-        <br><br>
+
+           
         
         </div>
     </div>
@@ -89,6 +91,26 @@
   <section id="work-shop" class="section-padding">
     <div class="container">
       <div class="row">
+      <div class="col-md-1"></div>
+        <div class=" col-md-3">
+            <img src="<?= base_url()?>template/Mentor/img/23003.jpg" alt="Cotiza tu seguro" style="width:300px; height:200px;">
+            <br>
+            <h4 class="sm-txt text-center">Cotiza tu seguro</h4>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <img src="<?= base_url()?>template/Mentor/img/23003.jpg" alt="Cotiza tu seguro" style="width:300px; height:200px;">
+            <br>
+            <h4 class="sm-txt text-center">Cotiza tu seguro</h4>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <img src="<?= base_url()?>template/Mentor/img/23003.jpg" alt="Cotiza tu seguro" style="width:300px; height:200px;">
+            <br>
+            <h4 class="sm-txt text-center">Cotiza tu seguro</h4>
+        </div>
+        <div class="col-md-1"></div>
+
 
       </div>
     </div>

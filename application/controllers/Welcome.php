@@ -27,8 +27,48 @@ class Welcome extends CI_Controller {
 		$this->load->view('pagPrincipal/head.php');
 		$this->load->view('pagPrincipal/indexPrincipal.php');
 		$this->load->view('pagPrincipal/footer.php');
-	
 	}
-
+	public function vehicular()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagVehicular/indexVehicular.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function hogar()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagHogar/indexHogar.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function vida()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagVida/indexVida.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function viaje()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagViaje/indexViaje.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function mascotas()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagMascotas/indexMascotas.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function bicicleta()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagBici/indexBici.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
+	public function corporativo()
+	{
+		$this->load->view('pagPrincipal/head.php');
+		$this->load->view('pagCorporativo/indexCorporativo.php');
+		$this->load->view('pagPrincipal/footer.php');
+	}
 
 }
